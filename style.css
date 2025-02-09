@@ -1,0 +1,116 @@
+.heart-section {
+  margin: 30px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  }
+  .heart {
+    height: 100px;
+    width: 100px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #f20044;
+    position: relative;
+    transform: rotate(-45deg);
+    box-shadow: -10px 10px 90px #f20044;
+    animation: heart 0.6s linear infinite;
+    cursor: pointer; 
+  }
+  @keyframes heart {
+    0% {
+      transform: rotate(-45deg) scale(1.0);
+    }
+    80% {
+      transform: rotate(-45deg) scale(1.3);
+    }
+    100% {
+      transform: rotate(-45deg) scale(0.9);
+    }
+  }
+  .heart:before {
+    content: '';
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background: #f20044;
+    top: -50%;
+    border-radius: 50px;
+    box-shadow: -10px -10px 90px #f20044;
+  }
+  .heart:after {
+    content: '';
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background: #f20044;
+    right: -50%;
+    border-radius: 50px;
+    box-shadow: -10px 10px 90px #f20044;
+  }
+body {
+  margin: 0;
+  background-color: #f8cbdb;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.gif-container {
+  position: absolute;
+}
+#gif1{
+  top: 0;
+  left: 0;
+  padding-left: 25px;
+}
+#gif2{
+  top: 0;
+  right: 0;
+  padding-right: 25px;
+}
+#gif3{
+  bottom: 0;
+  left: 0;
+  padding-bottom: 100px;
+  padding-left: 25px;
+}
+#gif4{
+  bottom: 0;
+  right: 0;
+  padding-bottom: 100px;
+  padding-right: 25px;
+}
+.gif-container img {
+  width: 550px;
+  height: auto;
+  display: block;
+  border: rgb(240, 111, 206) solid 5px;
+}
+.gif-container p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 25px;
+  font: italic;
+  color: #333;
+}
+.qr-container {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+img {
+  max-width: 1000px;
+  display: block;
+}
+#qr {
+  display: none;
+  scale: 1.25;
+  position: absolute;
+  bottom: 175px;
+  left: 53%;
+  transform: translateX(-50%);
+  max-width: 200px;
+}
