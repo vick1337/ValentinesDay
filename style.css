@@ -83,9 +83,9 @@ body {
 }
 .gif-container img {    /*AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAici*/
   /*width: 100%;*/
-  max-width: 500px;
+  max-width: 1000px;
  /* height: auto;*/
-  max-height: 300px;
+  max-height: 500px;
   border: rgb(240, 111, 206) solid 5px;
 }
 .gif-container p {
