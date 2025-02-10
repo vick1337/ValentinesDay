@@ -82,7 +82,7 @@ body {
   padding-right: 25px;
 }
 .gif-container img {
-  width: 100%;
+  height: 100%;
   max-width: 500px;
   height: auto;
   border: rgb(240, 111, 206) solid 5px;
