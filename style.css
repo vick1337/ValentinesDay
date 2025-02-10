@@ -90,10 +90,10 @@ body {
   border: rgb(240, 111, 206) solid 5px;
 }
 .gif-container p {
-  text-align: center;
+  /*text-align: center;*/
   margin-top: 20px;
   font-size: 25px;
-  font: italic;
+  font-style: italic;
   color: #333;
 }
 .qr-container {
