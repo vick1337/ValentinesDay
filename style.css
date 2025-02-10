@@ -107,10 +107,10 @@ img {
 }
 #qr {
   display: none;
-  scale: 1.0;
+  scale: 1.1;
   position: absolute;
   left: 50%;
   bottom: 5%;
-  /*transform: translateX(-50%);*/
+  transform: translateX(-50%);
   max-width: 200px;
 }
