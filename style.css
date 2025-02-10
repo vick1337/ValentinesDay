@@ -62,6 +62,8 @@ body {
 #gif1{
   top: 0;
   left: 0;
+  width:1000px;
+  height:700px;
   padding-left: 25px;
 }
 #gif2{
