@@ -103,10 +103,10 @@ body {
   transform: translateX(-50%);
   display: none;
 }
-img {
+/*img {
   max-width: 1000px;
   display: block;
-}
+}*/
 #qr {
   display: none;
   scale: 1.25;
