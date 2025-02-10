@@ -84,7 +84,8 @@ body {
   padding-right: 25px;
 }
 .gif-container img {    /*AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAici*/
-  width: 400px;
+  width: 30vw;
+  max-width: 450px;
   height: auto;
   border: rgb(240, 111, 206) solid 5px;
 }
@@ -114,4 +115,23 @@ img {
   bottom: 5%;
   transform: translateX(-50%);
   max-width: 250px;
+}
+
+
+
+
+
+
+@media (max-width: 1024px) { /* Pentru laptopuri mici și tablete */
+  .gif-container img {
+    width: 40vw;
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 768px) { /* Pentru telefoane */
+  .gif-container img {
+    width: 60vw;
+    max-width: 300px;
+  }
 }
