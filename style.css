@@ -82,9 +82,9 @@ body {
   padding-right: 25px;
 }
 .gif-container img {    /*AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAici*/
-  width: 100%;
+  /*width: 100%;*/
   max-width: 500px;
-  height: auto;
+ /* height: auto;*/
   max-height: 300px;
   border: rgb(240, 111, 206) solid 5px;
 }
