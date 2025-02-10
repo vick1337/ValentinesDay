@@ -82,9 +82,9 @@ body {
   padding-right: 25px;
 }
 .gif-container img {
-  width: 550px;
+  width: 100%;
+  max-width: 450px;
   height: auto;
-  display: block;
   border: rgb(240, 111, 206) solid 5px;
 }
 .gif-container p {
@@ -111,6 +111,7 @@ img {
   position: absolute;
   bottom: 175px;
   left: 53%;
+  bottom: 5%;
   transform: translateX(-50%);
   max-width: 200px;
 }
