@@ -110,7 +110,7 @@ img {
   scale: 1.25;
   position: absolute;
   left: 53%;
-  bottom: 5%;
+  bottom: 10%;
   transform: translateX(-50%);
   max-width: 200px;
 }
