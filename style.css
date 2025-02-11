@@ -131,7 +131,7 @@ body {
   max-width: 90%;
 }
 #qr {
-  scale:1.11;
+  scale:1.0;
   display: block;
   position: relative;
   bottom:5%;
