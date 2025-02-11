@@ -39,7 +39,7 @@ document.getElementById("inima-buton").onclick = function() {
                 if (c == 5) {
                     document.getElementById("Ciao").textContent =`Deeci, vrei să ieși cu mine?`;
                     document.getElementById("Ciao1").textContent =`Scanează întâi codul`;
-                    document.getElementById("qr").style.display = "block";
+                    document.querySelector(".qr-container").style.display = "block";
                     }
        let textElement = document.getElementById("Ciao");
         if (c >= 1 && c <= 4) {
