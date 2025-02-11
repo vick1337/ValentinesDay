@@ -90,7 +90,7 @@ body {
 }
 
 .gif-container img {
-  width: 450px;
+  width: 400px;
   max-width: 90%;
   height: auto;
   border: rgb(240, 111, 206) solid 5px;
@@ -124,7 +124,7 @@ body {
   max-width: 90%;
 }
 #qr {
-  scale:1.5;
+  scale:1;
   display: block;
   position: relative;
   bottom:5%;
