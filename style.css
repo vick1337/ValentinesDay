@@ -9,6 +9,10 @@ body {
   align-items: center;
 }
 
+p {
+      margin-bottom: 15px;
+    }
+
 .heart-section {
   position: absolute;
   top: 45%;
