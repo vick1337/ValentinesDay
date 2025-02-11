@@ -24,6 +24,7 @@ body {
 }
 
 .heart {
+  top:15%;
   height: 100px;
   width: 100px;
   background: #f20044;
