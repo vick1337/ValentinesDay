@@ -44,7 +44,7 @@ document.getElementById("inima-buton").onclick = function() {
        let textElement = document.getElementById("Ciao");
         if (c >= 1 && c <= 4) {
             let currentSize = parseFloat(window.getComputedStyle(textElement).fontSize);
-            textElement.style.fontSize = (currentSize + 4) + "px"; // Crește fontul cu 2px
+            textElement.style.fontSize = (currentSize + 2) + "px"; // Crește fontul cu 2px
         }                
                 gifElement.style.display = "block";
     }
