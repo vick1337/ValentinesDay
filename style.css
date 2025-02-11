@@ -90,7 +90,7 @@ body {
 }
 
 .gif-container img {
-  width: 300px;
+  width: 340px;
   max-width: 90%;
   height: auto;
   border: rgb(240, 111, 206) solid 5px;
@@ -120,11 +120,11 @@ body {
   display: none;
 }
 .qr-container img {
-  width: 100px;
+  width: 200px;
   max-width: 90%;
 }
 #qr {
-  scale:1;
+  scale:1.11;
   display: block;
   position: relative;
   bottom:5%;
